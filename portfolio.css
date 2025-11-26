@@ -1,12 +1,12 @@
 :root {
-    --primary: #000000;     /* Fondo negro */
-    --secondary: #FFD700;   /* Amarillo dorado */
-    --accent: #FFA500;      /* Naranja amarillento */
-    --light: #1a1a1a;       /* Gris oscuro para fondos claros */
-    --dark: #000000;        /* Negro */
-    --text: #FFFFFF;        /* Texto blanco */
-    --text-light: #000000;  /* Texto negro para contraste con amarillo */
-    --success: #2ecc71;
+    --primary: #1b1c1f;     /* Fondo gris antracita (menos hostil que negro puro) */
+    --secondary: #3a7bd5;   /* Azul profesional tipo corporativo */
+    --accent: #20e3b2;      /* Acuamarina / verde-azulado elegante para detalles */
+    --light: #242529;       /* Gris medio para secciones */
+    --dark: #1b1c1f;        /* Mantiene consistencia */
+    --text: #f2f2f3;        /* Blanco humo, menos agresivo que #fff */
+    --text-light: #0f0f11;  /* Texto negro suave para botones claros */
+    --success: #2ecc71;     /* Verde correcto, no cambiamos */
 }
 
 * {
