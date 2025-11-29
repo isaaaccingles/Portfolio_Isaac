@@ -765,4 +765,21 @@ footer {
     .skills-grid {
         grid-template-columns: 1fr;
     }
+
+    .hero-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid var(--secondary);
+    }
+
+    .hero-image {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
