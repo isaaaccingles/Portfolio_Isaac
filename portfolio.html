@@ -35,13 +35,23 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>Isaac Inglés Navidad</h1>
-            <p data-i18n="hero-title">Desarrollador Web Full Stack</p>
-            <div class="hero-flag">
-                <i class="fas fa-flag-usa"></i> <i class="fas fa-flag-eu"></i>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Isaac Inglés Navidad</h1>
+                    <p data-i18n="hero-title">Desarrollador Web Full Stack</p>
+                    <div class="hero-flag">
+                        <i class="fas fa-flag-usa"></i> <i class="fas fa-flag-eu"></i>
+                    </div>
+                    <p data-i18n="hero-desc">Con experiencia en consultoría informática. Nivel B2 de inglés. Actualmente residiendo en Irlanda.</p>
+                    <a href="#contact" class="btn" data-i18n="contact-btn">Contáctame</a>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>Tu foto profesional</p>
+                    </div>
+                </div>
             </div>
-            <p data-i18n="hero-desc">Con experiencia en consultoría informática. Nivel B2 de inglés. Actualmente residiendo en Irlanda.</p>
-            <a href="#contact" class="btn" data-i18n="contact-btn">Contáctame</a>
         </div>
     </section>
 
@@ -54,9 +64,27 @@
                     <p data-i18n="about-p1">Soy un desarrollador web full stack apasionado por la tecnología y la creación de soluciones digitales innovadoras. Mi experiencia incluye prácticas profesionales en AXPE, una consultora informática, donde adquirí experiencia práctica en el desarrollo de aplicaciones web.</p>
                     <p data-i18n="about-p2">Actualmente resido en Irlanda, lo que me ha permitido mejorar mi nivel de inglés hasta alcanzar un B2 y experimentar un entorno internacional que enriquece mi perspectiva profesional.</p>
                     <p data-i18n="about-p3">Mi objetivo es continuar creciendo como desarrollador, enfrentando nuevos desafíos y contribuyendo con soluciones tecnológicas de calidad.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-text" data-i18n="stat-experience">Años de experiencia</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">12+</div>
+                            <div class="stat-text" data-i18n="stat-projects">Proyectos completados</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-text" data-i18n="stat-technologies">Tecnologías dominadas</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="about-image">
-                    <img src="/img/IMG_5796.JPG" alt="Foto de Isaac">
+                    <div class="image-placeholder large">
+                        <i class="fas fa-user-tie"></i>
+                        <p>Foto profesional</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,16 +97,49 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
+                        <div class="company-logo">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
                         <h3 data-i18n="exp1-title">Prácticas profesionales - Desarrollador Web</h3>
                         <div class="timeline-date">AXPE Consulting - 2022</div>
                         <p data-i18n="exp1-desc">Durante mis prácticas en AXPE, participé en el desarrollo de aplicaciones web, trabajando con tecnologías como HTML, CSS, JavaScript, React y Spring Boot. Colaboré en proyectos reales bajo la supervisión de profesionales experimentados.</p>
+                        <div class="experience-tags">
+                            <span class="experience-tag">React</span>
+                            <span class="experience-tag">Spring Boot</span>
+                            <span class="experience-tag">JavaScript</span>
+                            <span class="experience-tag">HTML/CSS</span>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3 data-i18n="exp2-title">Carrefour Market</h3>
-                        <div class="timeline-date" data-i18n="exp2-date">3 meses - 2021</div>
-                        <p data-i18n="exp2-desc">Trabajé en Carrefour Market desarrollando habilidades de atención al cliente, trabajo en equipo y gestión de tiempo en un entorno dinámico y demandante.</p>
+                        <div class="company-logo">
+                            <i class="fas fa-cash-register"></i>
+                        </div>
+                        <h3 data-i18n="exp2-title">Denjoes Apache Killarney - Cajero</h3>
+                        <div class="timeline-date" data-i18n="exp2-date">2023 - Actualidad</div>
+                        <p data-i18n="exp2-desc">Trabajé como cajero en Denjoes Apache Killarney, donde desarrollé habilidades de atención al cliente, manejo de efectivo, gestión de inventario y trabajo en equipo en un entorno multicultural.</p>
+                        <div class="experience-tags">
+                            <span class="experience-tag" data-i18n="tag-customer-service">Atención al cliente</span>
+                            <span class="experience-tag" data-i18n="tag-cash-management">Gestión de caja</span>
+                            <span class="experience-tag" data-i18n="tag-teamwork">Trabajo en equipo</span>
+                            <span class="experience-tag" data-i18n="tag-multicultural">Multicultural</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="company-logo">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3 data-i18n="exp3-title">Carrefour Market</h3>
+                        <div class="timeline-date" data-i18n="exp3-date">3 meses - 2021</div>
+                        <p data-i18n="exp3-desc">Trabajé en Carrefour Market desarrollando habilidades de atención al cliente, trabajo en equipo y gestión de tiempo en un entorno dinámico y demandante.</p>
+                        <div class="experience-tags">
+                            <span class="experience-tag" data-i18n="tag-customer-service">Atención al cliente</span>
+                            <span class="experience-tag" data-i18n="tag-time-management">Gestión de tiempo</span>
+                            <span class="experience-tag" data-i18n="tag-teamwork">Trabajo en equipo</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,20 +150,22 @@
     <section id="education" class="education">
         <div class="container">
             <h2 class="section-title" data-i18n="education-title">Formación Académica</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3 data-i18n="edu1-title">Grado Superior en Desarrollo de Aplicaciones Web</h3>
-                        <div class="timeline-date">IES San Juan de la Cruz, Pozuelo</div>
-                        <p data-i18n="edu1-desc">Formación especializada en desarrollo web, programación, bases de datos y diseño de aplicaciones.</p>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
                     </div>
+                    <h3 data-i18n="edu1-title">Grado Superior en Desarrollo de Aplicaciones Web</h3>
+                    <div class="education-date">IES San Juan de la Cruz, Pozuelo</div>
+                    <p data-i18n="edu1-desc">Formación especializada en desarrollo web, programación, bases de datos y diseño de aplicaciones.</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3 data-i18n="edu2-title">Bachillerato</h3>
-                        <div class="timeline-date">Colegio CAUDE, Majadahonda</div>
-                        <p data-i18n="edu2-desc">Formación preuniversitaria con enfoque en tecnologías y ciencias.</p>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
                     </div>
+                    <h3 data-i18n="edu2-title">Bachillerato</h3>
+                    <div class="education-date">Colegio CAUDE, Majadahonda</div>
+                    <p data-i18n="edu2-desc">Formación preuniversitaria con enfoque en tecnologías y ciencias.</p>
                 </div>
             </div>
         </div>
@@ -114,42 +177,102 @@
             <h2 class="section-title" data-i18n="skills-title">Habilidades Técnicas</h2>
             <div class="skills-container">
                 <div class="skill-category">
-                    <h3 data-i18n="skills-frontend">Frontend</h3>
-                    <ul class="skill-list">
-                        <li><i class="fab fa-html5"></i> HTML5</li>
-                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
-                        <li><i class="fab fa-js"></i> JavaScript</li>
-                        <li><i class="fab fa-react"></i> React</li>
-                        <li><i class="fas fa-paint-brush"></i> <span data-i18n="skills-responsive">Responsive Design</span></li>
-                    </ul>
+                    <div class="skill-header">
+                        <i class="fas fa-palette"></i>
+                        <h3 data-i18n="skills-frontend">Frontend</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-sass"></i>
+                            <span>SASS</span>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="skill-category">
-                    <h3 data-i18n="skills-backend">Backend</h3>
-                    <ul class="skill-list">
-                        <li><i class="fab fa-node-js"></i> Node.js</li>
-                        <li><i class="fas fa-server"></i> Express</li>
-                        <li><i class="fab fa-php"></i> PHP</li>
-                        <li><i class="fas fa-database"></i> <span data-i18n="skills-db">Bases de Datos SQL</span></li>
-                        <li><i class="fas fa-code"></i> APIs RESTful</li>
-                        <li><i class="fas fa-leaf"></i> Spring Boot</li>
-                    </ul>
+                    <div class="skill-header">
+                        <i class="fas fa-server"></i>
+                        <h3 data-i18n="skills-backend">Backend</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring Boot</span>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="skill-category">
-                    <h3 data-i18n="skills-devops">DevOps & Herramientas</h3>
-                    <ul class="skill-list">
-                        <li><i class="fab fa-git"></i> Git</li>
-                        <li><i class="fab fa-docker"></i> Docker</li>
-                        <li><i class="fas fa-plug"></i> Postman</li>
-                        <li><i class="fas fa-chart-line"></i> ELK Stack</li>
-                        <li><i class="fas fa-tasks"></i> <span data-i18n="skills-agile">Metodologías Ágiles</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3 data-i18n="skills-languages">Idiomas</h3>
-                    <ul class="skill-list">
-                        <li><i class="fas fa-language"></i> <span data-i18n="skills-spanish">Español: Nativo</span></li>
-                        <li><i class="fas fa-language"></i> <span data-i18n="skills-english">Inglés: Nivel B2</span></li>
-                    </ul>
+                    <div class="skill-header">
+                        <i class="fas fa-tools"></i>
+                        <h3 data-i18n="skills-devops">DevOps & Herramientas</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-plug"></i>
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>ELK Stack</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tasks"></i>
+                            <span data-i18n="skills-agile">Metodologías Ágiles</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>AWS</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,10 +294,19 @@
                             <span class="project-tag">React</span>
                             <span class="project-tag">Node.js</span>
                             <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Express</span>
                         </div>
-                        <a href="https://gamenesthub.es" target="_blank" class="btn btn-outline" style="margin-top: 15px;">Visitar sitio web</a>
+                        <div class="project-links">
+                            <a href="https://gamenesthub.es" target="_blank" class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i> <span data-i18n="project-visit">Visitar sitio</span>
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> <span data-i18n="project-code">Código</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="project-card">
                     <div class="project-img">
                         <i class="fas fa-chart-bar"></i>
@@ -183,12 +315,19 @@
                         <h3 data-i18n="project2-title">Sistema de Análisis de Datos</h3>
                         <p data-i18n="project2-desc">Sistema de análisis y visualización de datos utilizando ELK Stack.</p>
                         <div class="project-tags">
-                            <span class="project-tag">ELK</span>
+                            <span class="project-tag">ELK Stack</span>
                             <span class="project-tag">JavaScript</span>
                             <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Data Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> <span data-i18n="project-code">Código</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+                
                 <div class="project-card">
                     <div class="project-img">
                         <i class="fas fa-mobile-alt"></i>
@@ -200,6 +339,33 @@
                             <span class="project-tag">React</span>
                             <span class="project-tag">Spring Boot</span>
                             <span class="project-tag">Docker</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> <span data-i18n="project-code">Código</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="project4-title">Blog Personal</h3>
+                        <p data-i18n="project4-desc">Blog personal desarrollado con PHP y MySQL con panel de administración.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> <span data-i18n="project-code">Código</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -211,56 +377,103 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title" data-i18n="contact-title">Contacto</h2>
-            <div class="contact-info">
-                <p data-i18n="contact-desc">Actualmente resido en Irlanda y estoy abierto a oportunidades laborales tanto presenciales como remotas.</p>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <span>isaacinglesnavidad@gmail.com</span>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact-get-in-touch">Ponte en contacto</h3>
+                    <p data-i18n="contact-desc">Actualmente resido en Irlanda y estoy abierto a oportunidades laborales tanto presenciales como remotas.</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <span>isaacinglesnavidad@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Teléfono España</h4>
+                                <span>+34 684 352 974</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Teléfono Irlanda</h4>
+                                <span>+353 83 058 3829</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Ubicación</h4>
+                                <span data-i18n="location">Irlanda</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links contact-social">
+                        <a href="https://www.linkedin.com/in/isaac-inglés-133015308" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/isaaaccingles" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/isaac.in" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <span>+34 684 352 974</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span data-i18n="location">Irlanda</span>
-                </div>
+                
+                <!-- Formulario de contacto -->
+                <form class="contact-form" id="contactForm">
+                    <h3 data-i18n="form-send-message">Envíame un mensaje</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name" data-i18n="form-name">Nombre</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email" data-i18n="form-email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject" data-i18n="form-subject">Asunto</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message" data-i18n="form-message">Mensaje</label>
+                    </div>
+                    <button type="submit" class="btn" data-i18n="form-submit">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                </form>
             </div>
-            
-            <!-- Formulario de contacto -->
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" required placeholder=" ">
-                    <label for="name" data-i18n="form-name">Nombre</label>
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" required placeholder=" ">
-                    <label for="email" data-i18n="form-email">Email</label>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
-                    <label for="message" data-i18n="form-message">Mensaje</label>
-                </div>
-                <button type="submit" class="btn" data-i18n="form-submit">Enviar Mensaje</button>
-            </form>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/isaac-inglés-133015308" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/isaaaccingles" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.instagram.com/isaac.in" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>Isaac Inglés Navidad</span>
+                </div>
+                <p>&copy; 2025 Isaac Inglés Navidad - <span data-i18n="footer">Desarrollador Web Full Stack</span></p>
             </div>
-            <p>&copy; 2025 Isaac Inglés Navidad - <span data-i18n="footer">Desarrollador Web Full Stack</span></p>
         </div>
     </footer>
 

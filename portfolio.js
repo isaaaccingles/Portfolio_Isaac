@@ -1,7 +1,7 @@
 // Idioma por defecto (inglés)
 let currentLang = 'en';
 
-// Textos en diferentes idiomas (OBJETO ÚNICO y COMPLETO)
+// Textos en diferentes idiomas
 const translations = {
     'es': {
         'about': 'Sobre mí',
@@ -17,12 +17,18 @@ const translations = {
         'about-p1': 'Soy un desarrollador web full stack apasionado por la tecnología y la creación de soluciones digitales innovadoras. Mi experiencia incluye prácticas profesionales en AXPE, una consultora informática, donde adquirí experiencia práctica en el desarrollo de aplicaciones web.',
         'about-p2': 'Actualmente resido en Irlanda, lo que me ha permitido mejorar mi nivel de inglés hasta alcanzar un B2 y experimentar un entorno internacional que enriquece mi perspectiva profesional.',
         'about-p3': 'Mi objetivo es continuar creciendo como desarrollador, enfrentando nuevos desafíos y contribuyendo con soluciones tecnológicas de calidad.',
+        'stat-experience': 'Años de experiencia',
+        'stat-projects': 'Proyectos completados',
+        'stat-technologies': 'Tecnologías dominadas',
         'experience-title': 'Experiencia Profesional',
         'exp1-title': 'Prácticas profesionales - Desarrollador Web',
         'exp1-desc': 'Durante mis prácticas en AXPE, participé en el desarrollo de aplicaciones web, trabajando con tecnologías como HTML, CSS, JavaScript, React y Spring Boot. Colaboré en proyectos reales bajo la supervisión de profesionales experimentados.',
-        'exp2-title': 'Carrefour Market',
-        'exp2-date': '3 meses - 2021',
-        'exp2-desc': 'Trabajé en Carrefour Market desarrollando habilidades de atención al cliente, trabajo en equipo y gestión de tiempo en un entorno dinámico y demandante.',
+        'exp2-title': 'Denjoes Apache Killarney - Cajero',
+        'exp2-date': '2023 - Actualidad',
+        'exp2-desc': 'Trabajé como cajero en Denjoes Apache Killarney, donde desarrollé habilidades de atención al cliente, manejo de efectivo, gestión de inventario y trabajo en equipo en un entorno multicultural.',
+        'exp3-title': 'Carrefour Market',
+        'exp3-date': '3 meses - 2021',
+        'exp3-desc': 'Trabajé en Carrefour Market desarrollando habilidades de atención al cliente, trabajo en equipo y gestión de tiempo en un entorno dinámico y demandante.',
         'education-title': 'Formación Académica',
         'edu1-title': 'Grado Superior en Desarrollo de Aplicaciones Web',
         'edu1-desc': 'Formación especializada en desarrollo web, programación, bases de datos y diseño de aplicaciones.',
@@ -44,16 +50,27 @@ const translations = {
         'project2-desc': 'Sistema de análisis y visualización de datos utilizando ELK Stack.',
         'project3-title': 'E-commerce Platform',
         'project3-desc': 'Plataforma de comercio electrónico desarrollada con React y Spring Boot.',
+        'project4-title': 'Blog Personal',
+        'project4-desc': 'Blog personal desarrollado con PHP y MySQL con panel de administración.',
+        'project-visit': 'Visitar sitio',
+        'project-code': 'Código',
         'contact-title': 'Contacto',
+        'contact-get-in-touch': 'Ponte en contacto',
         'contact-desc': 'Actualmente resido en Irlanda y estoy abierto a oportunidades laborales tanto presenciales como remotas.',
         'location': 'Irlanda',
-        'email-btn': 'Enviar Email',
-        'footer': 'Desarrollador Web Full Stack',
+        'form-send-message': 'Envíame un mensaje',
         'form-name': 'Nombre',
         'form-email': 'Email',
+        'form-subject': 'Asunto',
         'form-message': 'Mensaje',
         'form-submit': 'Enviar Mensaje',
-        'form-success': '¡Gracias por tu mensaje! Te responderé pronto.'
+        'form-success': '¡Gracias por tu mensaje! Te responderé pronto.',
+        'footer': 'Desarrollador Web Full Stack',
+        'tag-customer-service': 'Atención al cliente',
+        'tag-cash-management': 'Gestión de caja',
+        'tag-teamwork': 'Trabajo en equipo',
+        'tag-multicultural': 'Multicultural',
+        'tag-time-management': 'Gestión de tiempo'
     },
     'en': {
         'about': 'About me',
@@ -69,12 +86,18 @@ const translations = {
         'about-p1': 'I am a full stack web developer passionate about technology and creating innovative digital solutions. My experience includes professional internships at AXPE, an IT consulting firm, where I gained hands-on experience in web application development.',
         'about-p2': 'I currently reside in Ireland, which has allowed me to improve my English level to B2 and experience an international environment that enriches my professional perspective.',
         'about-p3': 'My goal is to continue growing as a developer, facing new challenges and contributing with quality technological solutions.',
+        'stat-experience': 'Years of experience',
+        'stat-projects': 'Projects completed',
+        'stat-technologies': 'Technologies mastered',
         'experience-title': 'Professional Experience',
         'exp1-title': 'Internship - Web Developer',
         'exp1-desc': 'During my internship at AXPE, I participated in the development of web applications, working with technologies such as HTML, CSS, JavaScript, React and Spring Boot. I collaborated on real projects under the supervision of experienced professionals.',
-        'exp2-title': 'Carrefour Market',
-        'exp2-date': '3 months - 2021',
-        'exp2-desc': 'I worked at Carrefour Market developing customer service skills, teamwork and time management in a dynamic and demanding environment.',
+        'exp2-title': 'Denjoes Apache Killarney - Cashier',
+        'exp2-date': '2023 - Present',
+        'exp2-desc': 'Worked as a cashier at Denjoes Apache Killarney, where I developed customer service skills, cash handling, inventory management and teamwork in a multicultural environment.',
+        'exp3-title': 'Carrefour Market',
+        'exp3-date': '3 months - 2021',
+        'exp3-desc': 'I worked at Carrefour Market developing customer service skills, teamwork and time management in a dynamic and demanding environment.',
         'education-title': 'Education',
         'edu1-title': 'Higher Degree in Web Application Development',
         'edu1-desc': 'Specialized training in web development, programming, databases and application design.',
@@ -96,20 +119,31 @@ const translations = {
         'project2-desc': 'Data analysis and visualization system using ELK Stack.',
         'project3-title': 'E-commerce Platform',
         'project3-desc': 'E-commerce platform developed with React and Spring Boot.',
+        'project4-title': 'Personal Blog',
+        'project4-desc': 'Personal blog developed with PHP and MySQL with admin panel.',
+        'project-visit': 'Visit site',
+        'project-code': 'Code',
         'contact-title': 'Contact',
+        'contact-get-in-touch': 'Get in touch',
         'contact-desc': 'I currently reside in Ireland and I am open to both on-site and remote job opportunities.',
         'location': 'Ireland',
-        'email-btn': 'Send Email',
-        'footer': 'Full Stack Web Developer',
+        'form-send-message': 'Send me a message',
         'form-name': 'Name',
         'form-email': 'Email',
+        'form-subject': 'Subject',
         'form-message': 'Message',
         'form-submit': 'Send Message',
-        'form-success': 'Thank you for your message! I will respond soon.'
+        'form-success': 'Thank you for your message! I will respond soon.',
+        'footer': 'Full Stack Web Developer',
+        'tag-customer-service': 'Customer Service',
+        'tag-cash-management': 'Cash Management',
+        'tag-teamwork': 'Teamwork',
+        'tag-multicultural': 'Multicultural',
+        'tag-time-management': 'Time Management'
     }
 };
 
-// FUNCIÓN ÚNICA para cambiar el idioma
+// FUNCIÓN para cambiar el idioma
 function changeLanguage(lang) {
     currentLang = lang;
     
@@ -133,7 +167,7 @@ document.getElementById('lang-en').addEventListener('click', () => changeLanguag
 // Inicializar con inglés por defecto
 document.addEventListener('DOMContentLoaded', () => changeLanguage('en'));
 
-// Manejo del formulario de contacto (usando las traducciones)
+// Manejo del formulario de contacto
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     
