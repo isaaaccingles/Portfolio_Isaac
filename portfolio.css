@@ -11,7 +11,9 @@
     --border: #333;
 }
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,6 +36,8 @@ body {
 
 section {
     padding: 80px 0;
+    scroll-margin-top: 100px; /* altura del header + un poco de margen */
+
 }
 
 h1, h2, h3, h4 {
@@ -69,6 +73,7 @@ a:hover {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+    justify-content: center;
 }
 
 .btn:hover {
@@ -148,7 +153,7 @@ nav {
 .nav-links a {
     color: var(--text);
     font-weight: 500;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
@@ -205,6 +210,11 @@ nav {
 .hero-image {
     flex: 1;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px; /* limita ancho del contenedor */
+    margin: 0 auto;
 }
 
 .image-placeholder {
@@ -282,6 +292,18 @@ nav {
 .about-image {
     flex: 1;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-photo {
+    width: 100%;
+    max-width: 650px; /* ajusta el tamaño máximo a lo que quieras */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 3px solid var(--secondary);
 }
 
 /* Experience Section */
@@ -689,6 +711,24 @@ footer {
     color: var(--secondary);
 }
 
+/* Hero Image Desktop */
+.hero-image {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-photo {
+    width: 100%;
+    max-width: 400px; /* ancho máximo de la imagen */
+    height: auto; /* mantener proporción */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 3px solid var(--secondary);
+}
+
 /* Animations */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
@@ -766,14 +806,11 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .hero-photo {
+.hero-photo {
+    max-width: 250px; /* más pequeña en móviles */
     width: 100%;
-    max-width: 400px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    border: 3px solid var(--secondary);
-    }
+}
 
     .hero-image {
         flex: 1;
