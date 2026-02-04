@@ -748,6 +748,14 @@ footer {
     .contact-content {
         flex-direction: column;
     }
+
+    .hero-text {
+        text-align: center;  /* centra los textos */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* centra los botones y la bandera */
+        gap: 20px; /* espacio entre elementos */
+    }   
     
     .hero-content {
         gap: 30px;
@@ -772,8 +780,35 @@ footer {
         left: 0;
     }
     
+    /* NAV responsive */
     .nav-links {
-        display: none;
+        display: none;             /* se oculta por defecto */
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 70px;                 /* altura del header */
+        right: 20px;
+        background-color: var(--dark);
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 1001;
+    }
+
+    .nav-links.active {
+        display: flex;             /* se muestra al activar */
+    }
+
+    .nav-links li {
+        margin: 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        font-size: 1.8rem;
+        color: var(--text);
+        background: none;
+        border: none;
     }
 
     .hero h1 {
@@ -806,11 +841,12 @@ footer {
         grid-template-columns: 1fr;
     }
 
-.hero-photo {
-    max-width: 250px; /* más pequeña en móviles */
-    width: 100%;
-    height: auto;
-}
+    .hero-photo {
+        max-width: 250px; /* más pequeña en móviles */
+        width: 100%;
+        height: auto;
+        margin-top: 30px; /* espacio entre el texto y la foto */
+    }
 
     .hero-image {
         flex: 1;

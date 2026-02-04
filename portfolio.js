@@ -175,3 +175,10 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     alert(translations[currentLang]['form-success']);
     this.reset();
 });
+
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
